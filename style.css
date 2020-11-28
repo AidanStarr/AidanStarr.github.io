@@ -91,6 +91,9 @@ font-family: Verdana, Arial, Helvetica, sans-serif;
 color: #555;
 }
 
+br.small {display:block; content:""; margin-top:0.5em; line-height:20%; vertical-align:top;}
+
+
 /* Style all font awesome icons */
 .fa {
   padding: 10px;
