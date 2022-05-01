@@ -15,12 +15,19 @@
 			top: 0;
 			bottom: 0;
 			left: 0;
-			width: 13%; /* Width of navigation frame */
+			width: 16%; /* Width of navigation frame */
 			height: 100%;
 			overflow: hidden; /* Disables scrollbars on the navigation frame. To enable scrollbars, change "hidden" to "scroll" */
 			background: #CC3C00;
       font-family: Verdana, Arial, Helvetica, sans-serif;
       line-height: 2em;
+		}
+
+		#logo{
+			position:relative;
+	    left: -17px;
+			bottom: -7px;
+			vertical-align: baseline;
 		}
 
 		main{
@@ -67,6 +74,9 @@
 
 		}
 
+		hr {
+			opacity: 0.2;
+		}
 		/*IE6 fix*/
 		* html body{
 			padding: 0 0 0 125px; /* Set the last value to the width of the navigation frame */
