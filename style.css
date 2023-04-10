@@ -6,7 +6,7 @@
 			overflow: hidden;
 			height: 100%;
 			max-height: 100%;
-                        font-family:Verdana, Arial, Helvetica, sans-serif;
+      font-family:Verdana, Arial, Helvetica, sans-serif;
 			line-height: 1.5em;
                 }
 
@@ -18,7 +18,7 @@
 			width: 16%; /* Width of navigation frame */
 			height: 100%;
 			overflow: hidden; /* Disables scrollbars on the navigation frame. To enable scrollbars, change "hidden" to "scroll" */
-			background: #CC3C00;
+			background: #59656d;
       font-family: Verdana, Arial, Helvetica, sans-serif;
       line-height: 2em;
 		}
@@ -36,12 +36,14 @@
 			left: 10%; /* Set this to the width of the navigation frame */
 			right: 0;
 			bottom: 0;
-                        overflow: auto;
+      overflow: auto;
 			background: #fff;
+		  font-family: Verdana, Arial, Helvetica, sans-serif;
 		}
 
 		a{
 			color: #002D66;
+			font-family: Verdana, Arial, Helvetica, sans-serif;
 		}
 
 		.innertube{
@@ -51,6 +53,7 @@
 
 		p {
 			color: #555;
+			font-family: Verdana, Arial, Helvetica, sans-serif;
 		}
 
 		nav ul {
